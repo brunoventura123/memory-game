@@ -118,7 +118,7 @@ const App = () => {
           <InfoItem label='Tempo' value={formatTimeElapsed(timeElapsed)} />
           <InfoItem label="Movimentos" value={moveCount.toString()} />
         </C.InfoArea>
-        <Button label="Reiniciar" icon={RestartIcon} onClick={resetAndCreateGrid} />
+        <Button label="Reset" icon={RestartIcon} onClick={resetAndCreateGrid} />
       </C.Info>
       <C.GridArea>
         <C.Grid>
